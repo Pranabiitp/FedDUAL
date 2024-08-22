@@ -1,13 +1,10 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[1]:
 
 
 #CIFAR10 and CIFAR100
 
 
-# In[ ]:
+
 
 
 import numpy as np
@@ -56,13 +53,13 @@ global_model = model.build()
 global_model.summary()
 
 
-# In[3]:
+
 
 
 # FMNIST
 
 
-# In[ ]:
+
 
 
 import tensorflow as tf
