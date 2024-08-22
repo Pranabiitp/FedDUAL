@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[3]:
 
 
 import os
@@ -9,7 +6,6 @@ gpu=int(input("Which gpu number you would like to allocate:"))
 os.environ["CUDA_VISIBLE_DEVICES"]=str(gpu)
 
 
-# In[ ]:
 
 
 
@@ -28,7 +24,7 @@ def create_clients(data_dict):
     return data_dict
 
 
-# In[ ]:
+
 
 
 
@@ -44,7 +40,7 @@ def test_model(X_test, Y_test,  model, comm_round):
     return accuracy, loss
 
 
-# In[ ]:
+
 
 
 
@@ -68,7 +64,7 @@ def avg_weights(scaled_weight_list):
     return avg_grad
 
 
-# In[ ]:
+
 
 
 import numpy as np
