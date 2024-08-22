@@ -1,7 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
 
-# In[ ]:
 
 
 import numpy as np
@@ -72,7 +69,7 @@ for i in range(num_clients):
     print(f"Client {i+1}: {len(client_data_indices[i])} samples")
 
 
-# In[ ]:
+
 
 
 import numpy as np
@@ -140,7 +137,7 @@ for i in range(len(client_train_data)):
     globals()[f"label{i+1}"] = client_train_labels[i]
 
 
-# In[ ]:
+
 
 
 import numpy as np
